@@ -60,7 +60,7 @@ def load_fit_tmp(path):
     return df
 
 
-@st.cache
+@st.cache_data
 def convert_df(df):
     """
     convert df to csv
